@@ -20,7 +20,7 @@ function Leaderboard() {
 
   return (
     <div className="container mt-4">
-      <div className="card">
+      <div className="card" style={{ background: 'linear-gradient(135deg, #e0ffe7 0%, #b2f5ea 100%)' }}>
         <div className="card-header bg-success text-white">
           <h2 className="mb-0">Leaderboard</h2>
         </div>
