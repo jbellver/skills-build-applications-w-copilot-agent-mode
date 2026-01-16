@@ -20,7 +20,7 @@ function Activities() {
 
   return (
     <div className="container mt-4">
-      <div className="card">
+      <div className="card" style={{ background: 'linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%)' }}>
         <div className="card-header bg-primary text-white">
           <h2 className="mb-0">Activities</h2>
         </div>

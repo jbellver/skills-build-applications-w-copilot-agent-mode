@@ -20,7 +20,7 @@ function Workouts() {
 
   return (
     <div className="container mt-4">
-      <div className="card">
+      <div className="card" style={{ background: 'linear-gradient(135deg, #fffbe0 0%, #fef9c3 100%)' }}>
         <div className="card-header bg-warning text-dark">
           <h2 className="mb-0">Workouts</h2>
         </div>

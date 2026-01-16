@@ -20,7 +20,7 @@ function Teams() {
 
   return (
     <div className="container mt-4">
-      <div className="card">
+      <div className="card" style={{ background: 'linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%)' }}>
         <div className="card-header bg-info text-white">
           <h2 className="mb-0">Teams</h2>
         </div>

@@ -20,7 +20,7 @@ function Users() {
 
   return (
     <div className="container mt-4">
-      <div className="card">
+      <div className="card" style={{ background: 'linear-gradient(135deg, #f0f4ff 0%, #dbeafe 100%)' }}>
         <div className="card-header bg-secondary text-white">
           <h2 className="mb-0">Users</h2>
         </div>
