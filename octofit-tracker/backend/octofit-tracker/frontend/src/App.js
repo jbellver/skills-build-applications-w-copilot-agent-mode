@@ -10,9 +10,12 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">OctoFit Tracker</Link>
+          <Link className="navbar-brand d-flex align-items-center" to="/">
+            <img src="/octofitapp-small.png" alt="OctoFit Logo" className="octofit-logo" />
+            OctoFit Tracker
+          </Link>
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item"><Link className="nav-link" to="/activities">Activities</Link></li>
